@@ -5,6 +5,7 @@ import { Label } from "../components/ui/label"
 import { Checkbox } from "../components/ui/checkbox"
 import Sidebar from '../components/sidebar'
 import Navbar from '../components/navbar'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   return (
@@ -61,9 +62,9 @@ export default function Login() {
             <div className="mt-6 text-center">
               <p className="text-sm text-gray-600">
                 Don't have an account?{' '}
-                <a href="#" className="text-amber-600 hover:text-amber-500 font-medium">
+                <Link to='/register' className="text-amber-600 hover:text-amber-500 font-medium">
                   Sign up
-                </a>
+                </Link>
               </p>
             </div>
           </div>

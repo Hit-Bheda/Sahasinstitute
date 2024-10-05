@@ -22,10 +22,7 @@ export default function Register() {
           <h1 className="text-4xl font-bold text-amber-600 mb-8">SAHAS EDUCATION INSTITUTE</h1>
           
           <div className="bg-amber-100 p-6 rounded-lg shadow-md">
-            <div className="flex space-x-4 mb-6">
-              <Button className="flex-1 bg-amber-300 text-amber-800 hover:bg-amber-400">HOME</Button>
-              <Button className="flex-1 bg-lime-400 text-lime-800 hover:bg-lime-500">SIGN UP</Button>
-            </div>
+            
             
             <form className="grid grid-cols-2 gap-6">
               <div className="col-span-2 sm:col-span-1">
